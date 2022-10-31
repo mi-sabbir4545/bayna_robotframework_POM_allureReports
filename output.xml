@@ -1,0 +1,1721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.7 on win32)" generated="20221016 18:49:21.828" rpa="false" schemaversion="3">
+<suite id="s1" name="TestCases" source="C:\Users\USER\PycharmProjects\WebAutomation\TestCases">
+<suite id="s1-s1" name="test Accountdetails" source="C:\Users\USER\PycharmProjects\WebAutomation\TestCases\test_Accountdetails.robot">
+<test id="s1-s1-t1" name="LeftbarTest" line="6">
+<kw name="LeftbarAccountdeatails" library="LeftBarPage">
+<kw name="setUp" library="BasePage">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221016 18:49:22.221" level="INFO">Opening browser 'Chrome' to base url 'https://bayna.store/my-account/'.</msg>
+<status status="PASS" starttime="20221016 18:49:22.221" endtime="20221016 18:49:29.286"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20221016 18:49:29.288" endtime="20221016 18:49:29.484"/>
+</kw>
+<status status="PASS" starttime="20221016 18:49:22.221" endtime="20221016 18:49:29.485"/>
+</kw>
+<kw name="scroll0" library="HomePage">
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<arg>XPATH : //a[normalize-space()='Facebook']</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" starttime="20221016 18:49:29.487" endtime="20221016 18:49:29.856"/>
+</kw>
+<status status="PASS" starttime="20221016 18:49:29.486" endtime="20221016 18:49:29.856"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:49:33.868" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:49:29.857" endtime="20221016 18:49:33.868"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${mobilenumber_textbox_XPATH}</arg>
+<arg>${mob_num}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221016 18:49:33.887" level="INFO">Typing text '01736457478' into text field 'XPATH: //input[@id='username']'.</msg>
+<status status="PASS" starttime="20221016 18:49:33.887" endtime="20221016 18:49:34.090"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:49:38.119" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:49:34.109" endtime="20221016 18:49:38.119"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${password_textbox_XPATH}</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221016 18:49:38.121" level="INFO">Typing text 'Tonoy@#123' into text field 'XPATH: //input[@id='password']'.</msg>
+<status status="PASS" starttime="20221016 18:49:38.121" endtime="20221016 18:49:38.255"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:49:42.258" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:49:38.256" endtime="20221016 18:49:42.259"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${login_button_XPATH}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221016 18:49:42.266" level="INFO">Clicking element 'XPATH: //button[normalize-space()='Log in']'.</msg>
+<status status="PASS" starttime="20221016 18:49:42.264" endtime="20221016 18:49:46.795"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:49:50.807" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:49:46.796" endtime="20221016 18:49:50.807"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${Account_XPATH}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221016 18:49:50.811" level="INFO">Clicking element '//div[@class='edit-account-link']//a[normalize-space()='Account details']'.</msg>
+<status status="PASS" starttime="20221016 18:49:50.810" endtime="20221016 18:49:52.941"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:49:56.967" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:49:52.960" endtime="20221016 18:49:56.967"/>
+</kw>
+<kw name="scroll5" library="HomePage">
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<arg>XPATH: //input[@id='password_current']</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" starttime="20221016 18:49:56.973" endtime="20221016 18:49:57.313"/>
+</kw>
+<status status="PASS" starttime="20221016 18:49:56.971" endtime="20221016 18:49:57.314"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:50:01.321" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:49:57.315" endtime="20221016 18:50:01.322"/>
+</kw>
+<kw name="Clear Element Text" library="SeleniumLibrary">
+<arg>XPATH: //input[@id='username']</arg>
+<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
+<status status="PASS" starttime="20221016 18:50:01.326" endtime="20221016 18:50:01.426"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:50:05.432" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:50:01.426" endtime="20221016 18:50:05.433"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${accmobilenum_XPATH}</arg>
+<arg>${moblie}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221016 18:50:05.438" level="INFO">Typing text '0123456789' into text field 'XPATH: //input[@id='username']'.</msg>
+<status status="PASS" starttime="20221016 18:50:05.437" endtime="20221016 18:50:05.637"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:50:09.655" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:50:05.639" endtime="20221016 18:50:09.656"/>
+</kw>
+<kw name="Clear Element Text" library="SeleniumLibrary">
+<arg>XPATH: //input[@id='account_first_name']</arg>
+<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
+<status status="PASS" starttime="20221016 18:50:09.660" endtime="20221016 18:50:09.749"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:50:13.750" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:50:09.749" endtime="20221016 18:50:13.751"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${accfirstname_XPATH}</arg>
+<arg>${fst_name}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221016 18:50:13.759" level="INFO">Typing text 'Tonoy' into text field 'XPATH: //input[@id='account_first_name']'.</msg>
+<status status="PASS" starttime="20221016 18:50:13.756" endtime="20221016 18:50:13.905"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:50:17.909" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:50:13.906" endtime="20221016 18:50:17.909"/>
+</kw>
+<kw name="Clear Element Text" library="SeleniumLibrary">
+<arg>XPATH: //input[@id='account_last_name']</arg>
+<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
+<status status="PASS" starttime="20221016 18:50:17.913" endtime="20221016 18:50:17.998"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:50:22.012" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:50:17.998" endtime="20221016 18:50:22.013"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${acclastname_XPATH}</arg>
+<arg>${lastname}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221016 18:50:22.024" level="INFO">Typing text 'saha' into text field 'XPATH: //input[@id='account_last_name']'.</msg>
+<status status="PASS" starttime="20221016 18:50:22.017" endtime="20221016 18:50:22.155"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:50:26.159" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:50:22.157" endtime="20221016 18:50:26.160"/>
+</kw>
+<kw name="Clear Element Text" library="SeleniumLibrary">
+<arg>XPATH:// input[ @ id = 'account_display_name']</arg>
+<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
+<status status="PASS" starttime="20221016 18:50:26.165" endtime="20221016 18:50:26.231"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${accdisplayname_XPATH}</arg>
+<arg>${displayname}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221016 18:50:26.232" level="INFO">Typing text 'Tonoy Saha' into text field 'XPATH: // input[ @ id = 'account_display_name']'.</msg>
+<status status="PASS" starttime="20221016 18:50:26.231" endtime="20221016 18:50:26.395"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:50:30.397" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:50:26.396" endtime="20221016 18:50:30.397"/>
+</kw>
+<kw name="Clear Element Text" library="SeleniumLibrary">
+<arg>XPATH: //input[@id='account_email']</arg>
+<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
+<status status="PASS" starttime="20221016 18:50:30.399" endtime="20221016 18:50:30.470"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:50:34.481" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:50:30.471" endtime="20221016 18:50:34.481"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${accemailadd_XPATH}</arg>
+<arg>${email}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221016 18:50:34.487" level="INFO">Typing text 'tonoykumarsaha46@gmail.com' into text field 'XPATH: //input[@id='account_email']'.</msg>
+<status status="PASS" starttime="20221016 18:50:34.485" endtime="20221016 18:50:34.685"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:50:38.688" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:50:34.687" endtime="20221016 18:50:38.688"/>
+</kw>
+<kw name="scroll6" library="HomePage">
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<arg>XPATH: //button[normalize-space()='Save changes']</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" starttime="20221016 18:50:38.708" endtime="20221016 18:50:39.001"/>
+</kw>
+<status status="PASS" starttime="20221016 18:50:38.707" endtime="20221016 18:50:39.002"/>
+</kw>
+<kw name="Clear Element Text" library="SeleniumLibrary">
+<arg>XPATH: //input[@id='password_current']</arg>
+<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
+<status status="PASS" starttime="20221016 18:50:39.003" endtime="20221016 18:50:39.057"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:50:43.059" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:50:39.058" endtime="20221016 18:50:43.060"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${acccurrpass_XPATH}</arg>
+<arg>${currentpass}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221016 18:50:43.068" level="INFO">Typing text '123456789' into text field 'XPATH: //input[@id='password_current']'.</msg>
+<status status="PASS" starttime="20221016 18:50:43.065" endtime="20221016 18:50:43.200"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:50:47.203" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:50:43.201" endtime="20221016 18:50:47.203"/>
+</kw>
+<kw name="Clear Element Text" library="SeleniumLibrary">
+<arg>XPATH://input[@id='password_1']</arg>
+<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
+<status status="PASS" starttime="20221016 18:50:47.206" endtime="20221016 18:50:47.298"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:50:51.310" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:50:47.299" endtime="20221016 18:50:51.311"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${accnewpass_XPATH}</arg>
+<arg>${newpass}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221016 18:50:51.319" level="INFO">Typing text '987456321' into text field 'XPATH: //input[@id='password_1']'.</msg>
+<status status="PASS" starttime="20221016 18:50:51.316" endtime="20221016 18:50:51.499"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:50:55.531" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:50:51.518" endtime="20221016 18:50:55.532"/>
+</kw>
+<kw name="Clear Element Text" library="SeleniumLibrary">
+<arg>XPATH://input[@id='password_2']</arg>
+<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
+<status status="PASS" starttime="20221016 18:50:55.538" endtime="20221016 18:50:55.637"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:50:59.641" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:50:55.638" endtime="20221016 18:50:59.641"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${accconfirmpass_XPATH}</arg>
+<arg>${confirmpass}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221016 18:50:59.664" level="INFO">Typing text '987456321' into text field 'XPATH: //input[@id='password_2']'.</msg>
+<status status="PASS" starttime="20221016 18:50:59.663" endtime="20221016 18:50:59.812"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:51:03.815" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:50:59.814" endtime="20221016 18:51:03.815"/>
+</kw>
+<kw name="scroll4" library="HomePage">
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<arg>window.scrollTo(0,document.body.scrollHeight)</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<msg timestamp="20221016 18:51:03.836" level="INFO">Executing JavaScript:
+window.scrollTo(0,document.body.scrollHeight)
+Without any arguments.</msg>
+<status status="PASS" starttime="20221016 18:51:03.835" endtime="20221016 18:51:03.843"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:51:07.847" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:51:03.845" endtime="20221016 18:51:07.848"/>
+</kw>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<arg>window.scrollTo(0,-document.body.scrollHeight)</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<msg timestamp="20221016 18:51:07.854" level="INFO">Executing JavaScript:
+window.scrollTo(0,-document.body.scrollHeight)
+Without any arguments.</msg>
+<status status="PASS" starttime="20221016 18:51:07.852" endtime="20221016 18:51:07.873"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:51:11.899" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:51:07.896" endtime="20221016 18:51:11.899"/>
+</kw>
+<status status="PASS" starttime="20221016 18:51:03.835" endtime="20221016 18:51:11.905"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:51:15.915" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:51:11.907" endtime="20221016 18:51:15.916"/>
+</kw>
+<kw name="teardown" library="BasePage">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20221016 18:51:15.941" endtime="20221016 18:51:18.281"/>
+</kw>
+<status status="PASS" starttime="20221016 18:51:15.939" endtime="20221016 18:51:18.282"/>
+</kw>
+<status status="PASS" starttime="20221016 18:49:22.220" endtime="20221016 18:51:18.282"/>
+</kw>
+<status status="PASS" starttime="20221016 18:49:22.218" endtime="20221016 18:51:18.283"/>
+</test>
+<status status="PASS" starttime="20221016 18:49:21.946" endtime="20221016 18:51:18.298"/>
+</suite>
+<suite id="s1-s2" name="test Addresses" source="C:\Users\USER\PycharmProjects\WebAutomation\TestCases\test_Addresses.robot">
+<test id="s1-s2-t1" name="LeftbarTest" line="6">
+<kw name="LeftbarAddresses" library="LeftBarPage">
+<kw name="setUp" library="BasePage">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221016 18:51:18.330" level="INFO">Opening browser 'Chrome' to base url 'https://bayna.store/my-account/'.</msg>
+<status status="PASS" starttime="20221016 18:51:18.329" endtime="20221016 18:51:23.572"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20221016 18:51:23.574" endtime="20221016 18:51:23.760"/>
+</kw>
+<status status="PASS" starttime="20221016 18:51:18.328" endtime="20221016 18:51:23.761"/>
+</kw>
+<kw name="scroll0" library="HomePage">
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<arg>XPATH : //a[normalize-space()='Facebook']</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" starttime="20221016 18:51:23.765" endtime="20221016 18:51:24.117"/>
+</kw>
+<status status="PASS" starttime="20221016 18:51:23.762" endtime="20221016 18:51:24.120"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:51:28.131" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:51:24.122" endtime="20221016 18:51:28.131"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${mobilenumber_textbox_XPATH}</arg>
+<arg>${mob_num}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221016 18:51:28.133" level="INFO">Typing text '01736457478' into text field 'XPATH: //input[@id='username']'.</msg>
+<status status="PASS" starttime="20221016 18:51:28.132" endtime="20221016 18:51:28.352"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:51:32.365" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:51:28.354" endtime="20221016 18:51:32.365"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${password_textbox_XPATH}</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221016 18:51:32.368" level="INFO">Typing text 'Tonoy@#123' into text field 'XPATH: //input[@id='password']'.</msg>
+<status status="PASS" starttime="20221016 18:51:32.367" endtime="20221016 18:51:32.498"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:51:36.508" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:51:32.499" endtime="20221016 18:51:36.508"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${login_button_XPATH}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221016 18:51:36.512" level="INFO">Clicking element 'XPATH: //button[normalize-space()='Log in']'.</msg>
+<status status="PASS" starttime="20221016 18:51:36.511" endtime="20221016 18:51:41.017"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:51:45.021" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:51:41.019" endtime="20221016 18:51:45.021"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${dashboard_link_XPATH}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221016 18:51:45.024" level="INFO">Clicking element 'XPATH: //nav[@class='woocommerce-MyAccount-navigation']//a[normalize-space()='Dashboard']'.</msg>
+<status status="PASS" starttime="20221016 18:51:45.023" endtime="20221016 18:51:46.875"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:51:50.890" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:51:46.877" endtime="20221016 18:51:50.890"/>
+</kw>
+<kw name="scroll1" library="HomePage">
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<arg>XPATH : //div[@class='customer-logout-link']//a[contains(text(),'Logout')]</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" starttime="20221016 18:51:50.892" endtime="20221016 18:51:51.184"/>
+</kw>
+<status status="PASS" starttime="20221016 18:51:50.892" endtime="20221016 18:51:51.184"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:51:55.191" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:51:51.185" endtime="20221016 18:51:55.191"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${Addresses_XPATH}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221016 18:51:55.198" level="INFO">Clicking element '//div[@class='edit-address-link']//a[normalize-space()='Addresses']'.</msg>
+<status status="PASS" starttime="20221016 18:51:55.196" endtime="20221016 18:51:57.086"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:52:01.098" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:51:57.087" endtime="20221016 18:52:01.098"/>
+</kw>
+<kw name="scroll4" library="HomePage">
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<arg>window.scrollTo(0,document.body.scrollHeight)</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<msg timestamp="20221016 18:52:01.104" level="INFO">Executing JavaScript:
+window.scrollTo(0,document.body.scrollHeight)
+Without any arguments.</msg>
+<status status="PASS" starttime="20221016 18:52:01.102" endtime="20221016 18:52:01.146"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:52:05.155" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:52:01.148" endtime="20221016 18:52:05.155"/>
+</kw>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<arg>window.scrollTo(0,-document.body.scrollHeight)</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<msg timestamp="20221016 18:52:05.162" level="INFO">Executing JavaScript:
+window.scrollTo(0,-document.body.scrollHeight)
+Without any arguments.</msg>
+<status status="PASS" starttime="20221016 18:52:05.159" endtime="20221016 18:52:05.181"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:52:09.195" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:52:05.187" endtime="20221016 18:52:09.196"/>
+</kw>
+<status status="PASS" starttime="20221016 18:52:01.101" endtime="20221016 18:52:09.220"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:52:13.235" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:52:09.223" endtime="20221016 18:52:13.236"/>
+</kw>
+<kw name="teardown" library="BasePage">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20221016 18:52:13.241" endtime="20221016 18:52:15.555"/>
+</kw>
+<status status="PASS" starttime="20221016 18:52:13.240" endtime="20221016 18:52:15.556"/>
+</kw>
+<status status="PASS" starttime="20221016 18:51:18.328" endtime="20221016 18:52:15.557"/>
+</kw>
+<status status="PASS" starttime="20221016 18:51:18.326" endtime="20221016 18:52:15.558"/>
+</test>
+<status status="PASS" starttime="20221016 18:51:18.306" endtime="20221016 18:52:15.571"/>
+</suite>
+<suite id="s1-s3" name="test Blog" source="C:\Users\USER\PycharmProjects\WebAutomation\TestCases\test_Blog.robot">
+<test id="s1-s3-t1" name="Logintest" line="6">
+<kw name="TopMiddlebar" library="TopBarPage">
+<kw name="setUp" library="BasePage">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221016 18:52:15.602" level="INFO">Opening browser 'Chrome' to base url 'https://bayna.store/my-account/'.</msg>
+<status status="PASS" starttime="20221016 18:52:15.601" endtime="20221016 18:52:20.495"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20221016 18:52:20.497" endtime="20221016 18:52:20.752"/>
+</kw>
+<status status="PASS" starttime="20221016 18:52:15.600" endtime="20221016 18:52:20.752"/>
+</kw>
+<kw name="Mouse Over" library="SeleniumLibrary">
+<arg>XPATH: //div[@class='whb-flex-row whb-header-bottom-inner']//span[@class='nav-link-text'][normalize-space()='Blog']</arg>
+<doc>Simulates hovering the mouse over the element ``locator``.</doc>
+<msg timestamp="20221016 18:52:20.754" level="INFO">Simulating Mouse Over on element 'XPATH: //div[@class='whb-flex-row whb-header-bottom-inner']//span[@class='nav-link-text'][normalize-space()='Blog']'.</msg>
+<status status="PASS" starttime="20221016 18:52:20.753" endtime="20221016 18:52:21.118"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:52:25.123" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:52:21.120" endtime="20221016 18:52:25.123"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${health_XPATH}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221016 18:52:25.125" level="INFO">Clicking element 'XPATH: //div[@class='whb-flex-row whb-header-bottom-inner']//a[@class='woodmart-nav-link'][normalize-space()='Health Tips']'.</msg>
+<status status="PASS" starttime="20221016 18:52:25.124" endtime="20221016 18:52:26.868"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:52:30.884" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:52:26.869" endtime="20221016 18:52:30.884"/>
+</kw>
+<kw name="scroll4" library="HomePage">
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<arg>window.scrollTo(0,document.body.scrollHeight)</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<msg timestamp="20221016 18:52:30.888" level="INFO">Executing JavaScript:
+window.scrollTo(0,document.body.scrollHeight)
+Without any arguments.</msg>
+<status status="PASS" starttime="20221016 18:52:30.887" endtime="20221016 18:52:30.928"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:52:34.937" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:52:30.930" endtime="20221016 18:52:34.938"/>
+</kw>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<arg>window.scrollTo(0,-document.body.scrollHeight)</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<msg timestamp="20221016 18:52:34.943" level="INFO">Executing JavaScript:
+window.scrollTo(0,-document.body.scrollHeight)
+Without any arguments.</msg>
+<status status="PASS" starttime="20221016 18:52:34.941" endtime="20221016 18:52:34.962"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:52:38.966" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:52:34.965" endtime="20221016 18:52:38.967"/>
+</kw>
+<status status="PASS" starttime="20221016 18:52:30.886" endtime="20221016 18:52:38.971"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:52:42.989" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:52:38.972" endtime="20221016 18:52:42.990"/>
+</kw>
+<kw name="Go Back" library="SeleniumLibrary">
+<doc>Simulates the user clicking the back button on their browser.</doc>
+<status status="PASS" starttime="20221016 18:52:42.994" endtime="20221016 18:52:44.078"/>
+</kw>
+<kw name="Mouse Over" library="SeleniumLibrary">
+<arg>XPATH: //div[@class='whb-flex-row whb-header-bottom-inner']//span[@class='nav-link-text'][normalize-space()='Blog']</arg>
+<doc>Simulates hovering the mouse over the element ``locator``.</doc>
+<msg timestamp="20221016 18:52:44.080" level="INFO">Simulating Mouse Over on element 'XPATH: //div[@class='whb-flex-row whb-header-bottom-inner']//span[@class='nav-link-text'][normalize-space()='Blog']'.</msg>
+<status status="PASS" starttime="20221016 18:52:44.080" endtime="20221016 18:52:44.464"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:52:48.489" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:52:44.473" endtime="20221016 18:52:48.489"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${recipe_XPATH}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221016 18:52:48.516" level="INFO">Clicking element 'XPATH: //div[@class='whb-flex-row whb-header-bottom-inner']//a[@class='woodmart-nav-link'][normalize-space()='Recipe']'.</msg>
+<status status="PASS" starttime="20221016 18:52:48.513" endtime="20221016 18:52:50.460"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>10</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:53:00.470" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20221016 18:52:50.462" endtime="20221016 18:53:00.471"/>
+</kw>
+<kw name="scroll10" library="HomePage">
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<arg>window.scrollTo(0,450)</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<msg timestamp="20221016 18:53:00.484" level="INFO">Executing JavaScript:
+window.scrollTo(0,450)
+Without any arguments.</msg>
+<status status="PASS" starttime="20221016 18:53:00.481" endtime="20221016 18:53:00.506"/>
+</kw>
+<status status="PASS" starttime="20221016 18:53:00.478" endtime="20221016 18:53:00.510"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:53:05.526" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20221016 18:53:00.512" endtime="20221016 18:53:05.527"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${chickenkarhai_XPATH}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221016 18:53:05.537" level="INFO">Clicking element 'XPATH: //a[@href='https://bayna.store/chicken-manchurian-quick-recipe-cooked-with-ag-food-chicken-meatball-by-herfoodieblog/']'.</msg>
+<status status="PASS" starttime="20221016 18:53:05.533" endtime="20221016 18:53:07.663"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>10</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:53:17.674" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20221016 18:53:07.665" endtime="20221016 18:53:17.674"/>
+</kw>
+<kw name="scroll11" library="HomePage">
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<arg>XPATH: //input[@id='submit']</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" starttime="20221016 18:53:17.677" endtime="20221016 18:53:17.975"/>
+</kw>
+<status status="PASS" starttime="20221016 18:53:17.676" endtime="20221016 18:53:17.977"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${comment_XPATH}</arg>
+<arg>${comment}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221016 18:53:17.978" level="INFO">Typing text 'This food was amazing , i just love to eat is. This food decoration was also attractive and taste was so much delicious' into text field 'XPATH: //textarea[@id='comment']'.</msg>
+<status status="PASS" starttime="20221016 18:53:17.977" endtime="20221016 18:53:18.457"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:53:22.470" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:53:18.459" endtime="20221016 18:53:22.470"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${name_XPATH}</arg>
+<arg>${name}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221016 18:53:22.474" level="INFO">Typing text 'Tonoy Kumar Saha' into text field 'XPATH: //input[@id='author']'.</msg>
+<status status="PASS" starttime="20221016 18:53:22.472" endtime="20221016 18:53:22.712"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:53:26.724" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:53:22.714" endtime="20221016 18:53:26.724"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${email_XPATH}</arg>
+<arg>${Email}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221016 18:53:26.730" level="INFO">Typing text 'tonoykumarsaha46@gmail.com' into text field 'XPATH: //input[@id='email']'.</msg>
+<status status="PASS" starttime="20221016 18:53:26.727" endtime="20221016 18:53:26.913"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:53:30.929" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:53:26.914" endtime="20221016 18:53:30.930"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${website_XPATH}</arg>
+<arg>${website}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221016 18:53:30.938" level="INFO">Typing text 'Tonoykumarsaha.com' into text field 'XPATH: //input[@id='url']'.</msg>
+<status status="PASS" starttime="20221016 18:53:30.935" endtime="20221016 18:53:31.151"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:53:35.153" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:53:31.153" endtime="20221016 18:53:35.154"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${clickmark_XPATH}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221016 18:53:35.160" level="INFO">Clicking element 'XPATH: //input[@id='wp-comment-cookies-consent']'.</msg>
+<status status="PASS" starttime="20221016 18:53:35.158" endtime="20221016 18:53:35.265"/>
+</kw>
+<kw name="teardown" library="BasePage">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20221016 18:53:35.268" endtime="20221016 18:53:37.571"/>
+</kw>
+<status status="PASS" starttime="20221016 18:53:35.267" endtime="20221016 18:53:37.572"/>
+</kw>
+<status status="PASS" starttime="20221016 18:52:15.600" endtime="20221016 18:53:37.572"/>
+</kw>
+<status status="PASS" starttime="20221016 18:52:15.599" endtime="20221016 18:53:37.573"/>
+</test>
+<status status="PASS" starttime="20221016 18:52:15.577" endtime="20221016 18:53:37.586"/>
+</suite>
+<suite id="s1-s4" name="test Download" source="C:\Users\USER\PycharmProjects\WebAutomation\TestCases\test_Download.robot">
+<test id="s1-s4-t1" name="LeftbarTest" line="6">
+<kw name="LeftbarDownload" library="LeftBarPage">
+<kw name="setUp" library="BasePage">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221016 18:53:37.613" level="INFO">Opening browser 'Chrome' to base url 'https://bayna.store/my-account/'.</msg>
+<status status="PASS" starttime="20221016 18:53:37.613" endtime="20221016 18:53:41.652"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20221016 18:53:41.654" endtime="20221016 18:53:41.964"/>
+</kw>
+<status status="PASS" starttime="20221016 18:53:37.612" endtime="20221016 18:53:41.964"/>
+</kw>
+<kw name="scroll0" library="HomePage">
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<arg>XPATH : //a[normalize-space()='Facebook']</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" starttime="20221016 18:53:41.966" endtime="20221016 18:53:42.303"/>
+</kw>
+<status status="PASS" starttime="20221016 18:53:41.965" endtime="20221016 18:53:42.304"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:53:46.314" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:53:42.304" endtime="20221016 18:53:46.314"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${mobilenumber_textbox_XPATH}</arg>
+<arg>${mob_num}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221016 18:53:46.333" level="INFO">Typing text '01736457478' into text field 'XPATH: //input[@id='username']'.</msg>
+<status status="PASS" starttime="20221016 18:53:46.332" endtime="20221016 18:53:46.548"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:53:50.562" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:53:46.550" endtime="20221016 18:53:50.562"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${password_textbox_XPATH}</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221016 18:53:50.566" level="INFO">Typing text 'Tonoy@#123' into text field 'XPATH: //input[@id='password']'.</msg>
+<status status="PASS" starttime="20221016 18:53:50.565" endtime="20221016 18:53:50.737"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:53:54.749" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:53:50.739" endtime="20221016 18:53:54.749"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${login_button_XPATH}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221016 18:53:54.753" level="INFO">Clicking element 'XPATH: //button[normalize-space()='Log in']'.</msg>
+<status status="PASS" starttime="20221016 18:53:54.751" endtime="20221016 18:53:59.716"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:54:03.720" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:53:59.717" endtime="20221016 18:54:03.720"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${dashboard_link_XPATH}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221016 18:54:03.727" level="INFO">Clicking element 'XPATH: //nav[@class='woocommerce-MyAccount-navigation']//a[normalize-space()='Dashboard']'.</msg>
+<status status="PASS" starttime="20221016 18:54:03.724" endtime="20221016 18:54:05.963"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:54:09.967" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:54:05.965" endtime="20221016 18:54:09.968"/>
+</kw>
+<kw name="scroll1" library="HomePage">
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<arg>XPATH : //div[@class='customer-logout-link']//a[contains(text(),'Logout')]</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" starttime="20221016 18:54:09.973" endtime="20221016 18:54:10.294"/>
+</kw>
+<status status="PASS" starttime="20221016 18:54:09.972" endtime="20221016 18:54:10.294"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:54:14.309" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:54:10.295" endtime="20221016 18:54:14.310"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${Downloads_XPATH}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221016 18:54:14.315" level="INFO">Clicking element '//div[@class='downloads-link']//a[normalize-space()='Downloads']'.</msg>
+<status status="PASS" starttime="20221016 18:54:14.314" endtime="20221016 18:54:16.006"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:54:20.007" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:54:16.007" endtime="20221016 18:54:20.008"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${Browse_link_XPATH}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221016 18:54:20.014" level="INFO">Clicking element 'XPATH: //a[normalize-space()='Browse products']'.</msg>
+<status status="PASS" starttime="20221016 18:54:20.012" endtime="20221016 18:54:29.644"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>10</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:54:39.650" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20221016 18:54:29.646" endtime="20221016 18:54:39.651"/>
+</kw>
+<kw name="scroll10" library="HomePage">
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<arg>window.scrollTo(0,450)</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<msg timestamp="20221016 18:54:39.662" level="INFO">Executing JavaScript:
+window.scrollTo(0,450)
+Without any arguments.</msg>
+<status status="PASS" starttime="20221016 18:54:39.659" endtime="20221016 18:54:39.728"/>
+</kw>
+<status status="PASS" starttime="20221016 18:54:39.655" endtime="20221016 18:54:39.730"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:54:43.742" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:54:39.730" endtime="20221016 18:54:43.743"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${cartclick_link_XPATH}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221016 18:54:43.748" level="INFO">Clicking element 'XPATH: //a[@class='product-image-link']//img[@alt='aloo puri price in Bangladesh']'.</msg>
+<status status="PASS" starttime="20221016 18:54:43.747" endtime="20221016 18:54:46.359"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:54:50.362" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:54:46.361" endtime="20221016 18:54:50.362"/>
+</kw>
+<kw name="scroll3" library="HomePage">
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<arg>XPATH: //span[normalize-space()='Shipping &amp; Delivery']</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" starttime="20221016 18:54:50.369" endtime="20221016 18:54:50.736"/>
+</kw>
+<status status="PASS" starttime="20221016 18:54:50.367" endtime="20221016 18:54:50.736"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:54:54.752" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:54:50.736" endtime="20221016 18:54:54.752"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${addcart_XPATH}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221016 18:54:54.754" level="INFO">Clicking element 'XPATH: //div[@class='summary-inner']//button[@name='add-to-cart'][normalize-space()='Add to cart']'.</msg>
+<status status="PASS" starttime="20221016 18:54:54.753" endtime="20221016 18:54:54.838"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:54:58.846" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:54:54.840" endtime="20221016 18:54:58.846"/>
+</kw>
+<kw name="teardown" library="BasePage">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20221016 18:54:58.849" endtime="20221016 18:55:01.180"/>
+</kw>
+<status status="PASS" starttime="20221016 18:54:58.848" endtime="20221016 18:55:01.180"/>
+</kw>
+<status status="PASS" starttime="20221016 18:53:37.612" endtime="20221016 18:55:01.181"/>
+</kw>
+<status status="PASS" starttime="20221016 18:53:37.611" endtime="20221016 18:55:01.182"/>
+</test>
+<status status="PASS" starttime="20221016 18:53:37.595" endtime="20221016 18:55:01.191"/>
+</suite>
+<suite id="s1-s5" name="test Facebook" source="C:\Users\USER\PycharmProjects\WebAutomation\TestCases\test_Facebook.robot">
+<test id="s1-s5-t1" name="FacebookTest" line="8">
+<kw name="setUp" library="BasePage">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221016 18:55:01.212" level="INFO">Opening browser 'Chrome' to base url 'https://bayna.store/my-account/'.</msg>
+<status status="PASS" starttime="20221016 18:55:01.211" endtime="20221016 18:55:06.177"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20221016 18:55:06.179" endtime="20221016 18:55:06.405"/>
+</kw>
+<status status="PASS" starttime="20221016 18:55:01.210" endtime="20221016 18:55:06.405"/>
+</kw>
+<kw name="Facebook" library="FacebookKeywords">
+<kw name="scroll2" library="HomePage">
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<arg>XPATH : //a[contains(text(),'Logout')]</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<msg timestamp="20221016 18:55:06.655" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-5.png"&gt;&lt;img src="selenium-screenshot-5.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20221016 18:55:06.656" level="FAIL">Element with locator 'XPATH : //a[contains(text(),'Logout')]' not found.</msg>
+<status status="FAIL" starttime="20221016 18:55:06.407" endtime="20221016 18:55:06.659"/>
+</kw>
+<status status="FAIL" starttime="20221016 18:55:06.407" endtime="20221016 18:55:06.662"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${fb_XPATH}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20221016 18:55:06.663" endtime="20221016 18:55:06.664"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20221016 18:55:06.664" endtime="20221016 18:55:06.665"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${fbemail_XPATH}</arg>
+<arg>${email_mob}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20221016 18:55:06.665" endtime="20221016 18:55:06.666"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20221016 18:55:06.666" endtime="20221016 18:55:06.667"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${fbpassword_XPATH}</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20221016 18:55:06.667" endtime="20221016 18:55:06.668"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20221016 18:55:06.668" endtime="20221016 18:55:06.668"/>
+</kw>
+<kw name="Go Back" library="SeleniumLibrary">
+<doc>Simulates the user clicking the back button on their browser.</doc>
+<status status="NOT RUN" starttime="20221016 18:55:06.669" endtime="20221016 18:55:06.669"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20221016 18:55:06.670" endtime="20221016 18:55:06.670"/>
+</kw>
+<status status="FAIL" starttime="20221016 18:55:06.406" endtime="20221016 18:55:06.671"/>
+</kw>
+<kw name="teardown" library="BasePage">
+<status status="NOT RUN" starttime="20221016 18:55:06.672" endtime="20221016 18:55:06.672"/>
+</kw>
+<status status="FAIL" starttime="20221016 18:55:01.209" endtime="20221016 18:55:06.673">Element with locator 'XPATH : //a[contains(text(),'Logout')]' not found.</status>
+</test>
+<status status="FAIL" starttime="20221016 18:55:01.196" endtime="20221016 18:55:06.685"/>
+</suite>
+<suite id="s1-s6" name="test Login" source="C:\Users\USER\PycharmProjects\WebAutomation\TestCases\test_Login.robot">
+<test id="s1-s6-t1" name="Logintest" line="7">
+<kw name="Login" library="LoginKeywords">
+<kw name="setUp" library="BasePage">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221016 18:55:06.709" level="INFO">Opening browser 'Chrome' to base url 'https://bayna.store/my-account/'.</msg>
+<status status="PASS" starttime="20221016 18:55:06.708" endtime="20221016 18:55:10.488"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20221016 18:55:10.490" endtime="20221016 18:55:10.776"/>
+</kw>
+<status status="PASS" starttime="20221016 18:55:06.708" endtime="20221016 18:55:10.777"/>
+</kw>
+<kw name="scroll0" library="HomePage">
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<arg>XPATH : //a[normalize-space()='Facebook']</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" starttime="20221016 18:55:10.778" endtime="20221016 18:55:11.158"/>
+</kw>
+<status status="PASS" starttime="20221016 18:55:10.777" endtime="20221016 18:55:11.159"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:55:15.167" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:55:11.159" endtime="20221016 18:55:15.167"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${mobilenumber_textbox_XPATH}</arg>
+<arg>${mob_num}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221016 18:55:15.170" level="INFO">Typing text '01736457478' into text field 'XPATH: //input[@id='username']'.</msg>
+<status status="PASS" starttime="20221016 18:55:15.169" endtime="20221016 18:55:15.401"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:55:19.408" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:55:15.403" endtime="20221016 18:55:19.408"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${password_textbox_XPATH}</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221016 18:55:19.410" level="INFO">Typing text 'Tonoy@#123' into text field 'XPATH: //input[@id='password']'.</msg>
+<status status="PASS" starttime="20221016 18:55:19.409" endtime="20221016 18:55:19.553"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:55:23.563" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:55:19.555" endtime="20221016 18:55:23.563"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${login_button_XPATH}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221016 18:55:23.566" level="INFO">Clicking element 'XPATH: //button[normalize-space()='Log in']'.</msg>
+<status status="PASS" starttime="20221016 18:55:23.565" endtime="20221016 18:55:28.249"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:55:32.258" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:55:28.251" endtime="20221016 18:55:32.259"/>
+</kw>
+<kw name="scroll1" library="HomePage">
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<arg>XPATH : //div[@class='customer-logout-link']//a[contains(text(),'Logout')]</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" starttime="20221016 18:55:32.261" endtime="20221016 18:55:32.554"/>
+</kw>
+<status status="PASS" starttime="20221016 18:55:32.260" endtime="20221016 18:55:32.554"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:55:36.558" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:55:32.555" endtime="20221016 18:55:36.558"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${logout_link_XPATH}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221016 18:55:36.560" level="INFO">Clicking element 'XPATH: //li[@class='woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--customer-logout']//a[contains(text(),'Logout')]'.</msg>
+<status status="PASS" starttime="20221016 18:55:36.559" endtime="20221016 18:55:40.191"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:55:44.202" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:55:40.192" endtime="20221016 18:55:44.202"/>
+</kw>
+<kw name="teardown" library="BasePage">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20221016 18:55:44.207" endtime="20221016 18:55:46.559"/>
+</kw>
+<status status="PASS" starttime="20221016 18:55:44.206" endtime="20221016 18:55:46.560"/>
+</kw>
+<status status="PASS" starttime="20221016 18:55:06.707" endtime="20221016 18:55:46.561"/>
+</kw>
+<status status="PASS" starttime="20221016 18:55:06.707" endtime="20221016 18:55:46.564"/>
+</test>
+<status status="PASS" starttime="20221016 18:55:06.688" endtime="20221016 18:55:46.608"/>
+</suite>
+<suite id="s1-s7" name="Test Lostpassword" source="C:\Users\USER\PycharmProjects\WebAutomation\TestCases\test_lostpassword.robot">
+<test id="s1-s7-t1" name="lostpassword" line="7">
+<kw name="Lostpassword" library="LostpasswordKeywords">
+<kw name="setUp" library="BasePage">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221016 18:55:46.635" level="INFO">Opening browser 'Chrome' to base url 'https://bayna.store/my-account/'.</msg>
+<status status="PASS" starttime="20221016 18:55:46.634" endtime="20221016 18:55:50.664"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20221016 18:55:50.666" endtime="20221016 18:55:50.912"/>
+</kw>
+<status status="PASS" starttime="20221016 18:55:46.634" endtime="20221016 18:55:50.912"/>
+</kw>
+<kw name="scroll0" library="HomePage">
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<arg>XPATH : //a[normalize-space()='Facebook']</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" starttime="20221016 18:55:50.914" endtime="20221016 18:55:51.242"/>
+</kw>
+<status status="PASS" starttime="20221016 18:55:50.913" endtime="20221016 18:55:51.243"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:55:55.249" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:55:51.243" endtime="20221016 18:55:55.249"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${lostpass_XPATH}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221016 18:55:55.251" level="INFO">Clicking element 'XPATH: //a[normalize-space()='Lost your password?']'.</msg>
+<status status="PASS" starttime="20221016 18:55:55.250" endtime="20221016 18:55:56.994"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:56:01.000" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:55:56.996" endtime="20221016 18:56:01.001"/>
+</kw>
+<kw name="scroll12" library="HomePage">
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<arg>XPATH: //button[normalize-space()='Reset password']</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" starttime="20221016 18:56:01.007" endtime="20221016 18:56:01.348"/>
+</kw>
+<status status="PASS" starttime="20221016 18:56:01.005" endtime="20221016 18:56:01.350"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:56:05.367" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:56:01.351" endtime="20221016 18:56:05.367"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${lostpassemail_XPATH}</arg>
+<arg>${mob_num}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221016 18:56:05.371" level="INFO">Typing text '01736457478' into text field 'XPATH: //input[@id='user_login']'.</msg>
+<status status="PASS" starttime="20221016 18:56:05.369" endtime="20221016 18:56:05.652"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:56:09.670" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:56:05.654" endtime="20221016 18:56:09.671"/>
+</kw>
+<kw name="Go Back" library="SeleniumLibrary">
+<doc>Simulates the user clicking the back button on their browser.</doc>
+<status status="PASS" starttime="20221016 18:56:09.674" endtime="20221016 18:56:10.797"/>
+</kw>
+<kw name="teardown" library="BasePage">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20221016 18:56:10.799" endtime="20221016 18:56:13.151"/>
+</kw>
+<status status="PASS" starttime="20221016 18:56:10.798" endtime="20221016 18:56:13.152"/>
+</kw>
+<status status="PASS" starttime="20221016 18:55:46.633" endtime="20221016 18:56:13.153"/>
+</kw>
+<status status="PASS" starttime="20221016 18:55:46.633" endtime="20221016 18:56:13.154"/>
+</test>
+<status status="PASS" starttime="20221016 18:55:46.613" endtime="20221016 18:56:13.179"/>
+</suite>
+<suite id="s1-s8" name="test Order" source="C:\Users\USER\PycharmProjects\WebAutomation\TestCases\test_Order.robot">
+<test id="s1-s8-t1" name="LeftbarTest" line="7">
+<kw name="LeftbarOrder" library="LeftBarPage">
+<kw name="setUp" library="BasePage">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221016 18:56:13.201" level="INFO">Opening browser 'Chrome' to base url 'https://bayna.store/my-account/'.</msg>
+<status status="PASS" starttime="20221016 18:56:13.201" endtime="20221016 18:56:17.021"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20221016 18:56:17.023" endtime="20221016 18:56:17.176"/>
+</kw>
+<status status="PASS" starttime="20221016 18:56:13.200" endtime="20221016 18:56:17.177"/>
+</kw>
+<kw name="scroll0" library="HomePage">
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<arg>XPATH : //a[normalize-space()='Facebook']</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" starttime="20221016 18:56:17.178" endtime="20221016 18:56:17.543"/>
+</kw>
+<status status="PASS" starttime="20221016 18:56:17.177" endtime="20221016 18:56:17.543"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:56:21.557" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:56:17.543" endtime="20221016 18:56:21.557"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${mobilenumber_textbox_XPATH}</arg>
+<arg>${mob_num}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221016 18:56:21.576" level="INFO">Typing text '01736457478' into text field 'XPATH: //input[@id='username']'.</msg>
+<status status="PASS" starttime="20221016 18:56:21.576" endtime="20221016 18:56:21.777"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:56:25.790" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:56:21.779" endtime="20221016 18:56:25.791"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${password_textbox_XPATH}</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221016 18:56:25.798" level="INFO">Typing text 'Tonoy@#123' into text field 'XPATH: //input[@id='password']'.</msg>
+<status status="PASS" starttime="20221016 18:56:25.796" endtime="20221016 18:56:25.936"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:56:29.942" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:56:25.938" endtime="20221016 18:56:29.942"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${login_button_XPATH}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221016 18:56:29.949" level="INFO">Clicking element 'XPATH: //button[normalize-space()='Log in']'.</msg>
+<status status="PASS" starttime="20221016 18:56:29.946" endtime="20221016 18:56:34.577"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:56:38.580" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:56:34.579" endtime="20221016 18:56:38.580"/>
+</kw>
+<kw name="scroll1" library="HomePage">
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<arg>XPATH : //div[@class='customer-logout-link']//a[contains(text(),'Logout')]</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" starttime="20221016 18:56:38.586" endtime="20221016 18:56:38.929"/>
+</kw>
+<status status="PASS" starttime="20221016 18:56:38.584" endtime="20221016 18:56:38.929"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:56:42.941" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:56:38.929" endtime="20221016 18:56:42.942"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${orders_link_XPATH}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221016 18:56:42.948" level="INFO">Clicking element 'XPATH: //div[@class='orders-link']//a[normalize-space()='Orders']'.</msg>
+<status status="PASS" starttime="20221016 18:56:42.946" endtime="20221016 18:56:44.911"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:56:48.931" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:56:44.930" endtime="20221016 18:56:48.932"/>
+</kw>
+<kw name="scroll2" library="HomePage">
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<arg>XPATH : //a[contains(text(),'Logout')]</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" starttime="20221016 18:56:48.941" endtime="20221016 18:56:49.278"/>
+</kw>
+<status status="PASS" starttime="20221016 18:56:48.938" endtime="20221016 18:56:49.281"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:56:53.294" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:56:49.283" endtime="20221016 18:56:53.295"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${view_link_XPATH}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221016 18:56:53.302" level="INFO">Clicking element 'XPATH: //a[normalize-space()='#22420']'.</msg>
+<status status="PASS" starttime="20221016 18:56:53.300" endtime="20221016 18:56:55.028"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:56:59.045" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:56:55.030" endtime="20221016 18:56:59.045"/>
+</kw>
+<kw name="scroll4" library="HomePage">
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<arg>window.scrollTo(0,document.body.scrollHeight)</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<msg timestamp="20221016 18:56:59.053" level="INFO">Executing JavaScript:
+window.scrollTo(0,document.body.scrollHeight)
+Without any arguments.</msg>
+<status status="PASS" starttime="20221016 18:56:59.051" endtime="20221016 18:56:59.072"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:57:03.085" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:56:59.076" endtime="20221016 18:57:03.086"/>
+</kw>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<arg>window.scrollTo(0,-document.body.scrollHeight)</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<msg timestamp="20221016 18:57:03.092" level="INFO">Executing JavaScript:
+window.scrollTo(0,-document.body.scrollHeight)
+Without any arguments.</msg>
+<status status="PASS" starttime="20221016 18:57:03.090" endtime="20221016 18:57:03.104"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:57:07.130" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:57:03.124" endtime="20221016 18:57:07.130"/>
+</kw>
+<status status="PASS" starttime="20221016 18:56:59.050" endtime="20221016 18:57:07.135"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:57:11.150" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:57:07.137" endtime="20221016 18:57:11.150"/>
+</kw>
+<kw name="Go Back" library="SeleniumLibrary">
+<doc>Simulates the user clicking the back button on their browser.</doc>
+<status status="PASS" starttime="20221016 18:57:11.156" endtime="20221016 18:57:12.190"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:57:16.200" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:57:12.191" endtime="20221016 18:57:16.200"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${invoice_XPATH}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221016 18:57:16.202" level="INFO">Clicking element 'XPATH: //tbody/tr[1]/td[5]/a[2]'.</msg>
+<status status="PASS" starttime="20221016 18:57:16.201" endtime="20221016 18:57:16.383"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:57:20.398" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:57:16.385" endtime="20221016 18:57:20.398"/>
+</kw>
+<kw name="newtab" library="HomePage">
+<kw name="Get Window Handles" library="SeleniumLibrary">
+<var>${windowhandles}</var>
+<doc>Returns all child window handles of the selected browser as a list.</doc>
+<msg timestamp="20221016 18:57:20.419" level="INFO">${windowhandles} = ['CDwindow-81E2603C70FFF249D36E1F25DA1095E5', 'CDwindow-6C0190E537DB9A2C6AABEA34A07B6B26']</msg>
+<status status="PASS" starttime="20221016 18:57:20.406" endtime="20221016 18:57:20.419"/>
+</kw>
+<kw name="Switch Window" library="SeleniumLibrary">
+<arg>${windowhandles}[1]</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="PASS" starttime="20221016 18:57:20.422" endtime="20221016 18:57:20.519"/>
+</kw>
+<kw name="Close Window" library="SeleniumLibrary">
+<doc>Closes currently opened and selected browser window/tab.</doc>
+<status status="PASS" starttime="20221016 18:57:20.521" endtime="20221016 18:57:20.598"/>
+</kw>
+<kw name="Switch Window" library="SeleniumLibrary">
+<arg>${windowhandles}[0]</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="PASS" starttime="20221016 18:57:20.599" endtime="20221016 18:57:20.680"/>
+</kw>
+<status status="PASS" starttime="20221016 18:57:20.403" endtime="20221016 18:57:20.681"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:57:24.696" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:57:20.683" endtime="20221016 18:57:24.696"/>
+</kw>
+<kw name="teardown" library="BasePage">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20221016 18:57:24.700" endtime="20221016 18:57:27.218"/>
+</kw>
+<status status="PASS" starttime="20221016 18:57:24.699" endtime="20221016 18:57:27.219"/>
+</kw>
+<status status="PASS" starttime="20221016 18:56:13.200" endtime="20221016 18:57:27.221"/>
+</kw>
+<status status="PASS" starttime="20221016 18:56:13.199" endtime="20221016 18:57:27.224"/>
+</test>
+<status status="PASS" starttime="20221016 18:56:13.184" endtime="20221016 18:57:27.269"/>
+</suite>
+<suite id="s1-s9" name="test Register" source="C:\Users\USER\PycharmProjects\WebAutomation\TestCases\test_Register.robot">
+<test id="s1-s9-t1" name="RegisterTest" line="6">
+<kw name="Register" library="RegisterKeywords">
+<kw name="setUp" library="BasePage">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221016 18:57:27.306" level="INFO">Opening browser 'Chrome' to base url 'https://bayna.store/my-account/'.</msg>
+<status status="PASS" starttime="20221016 18:57:27.305" endtime="20221016 18:57:32.182"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20221016 18:57:32.183" endtime="20221016 18:57:32.403"/>
+</kw>
+<status status="PASS" starttime="20221016 18:57:27.305" endtime="20221016 18:57:32.404"/>
+</kw>
+<kw name="scroll0" library="HomePage">
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<arg>XPATH : //a[normalize-space()='Facebook']</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" starttime="20221016 18:57:32.407" endtime="20221016 18:57:32.720"/>
+</kw>
+<status status="PASS" starttime="20221016 18:57:32.405" endtime="20221016 18:57:32.720"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:57:36.735" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:57:32.721" endtime="20221016 18:57:36.735"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${register_XPATH}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221016 18:57:36.737" level="INFO">Clicking element 'XPATH: //a[normalize-space()='Register']'.</msg>
+<status status="PASS" starttime="20221016 18:57:36.737" endtime="20221016 18:57:36.872"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:57:40.875" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:57:36.874" endtime="20221016 18:57:40.875"/>
+</kw>
+<kw name="scroll13" library="HomePage">
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<arg>XPATH: //input[@name='register']</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" starttime="20221016 18:57:40.882" endtime="20221016 18:57:41.189"/>
+</kw>
+<status status="PASS" starttime="20221016 18:57:40.879" endtime="20221016 18:57:41.190"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:57:45.196" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:57:41.190" endtime="20221016 18:57:45.196"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${regusername_ID}</arg>
+<arg>${username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221016 18:57:45.199" level="INFO">Typing text 'Rayan' into text field 'ID: reg_username'.</msg>
+<status status="PASS" starttime="20221016 18:57:45.198" endtime="20221016 18:57:45.374"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:57:49.383" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:57:45.376" endtime="20221016 18:57:49.384"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${regfirstname_ID}</arg>
+<arg>${firstname}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221016 18:57:49.390" level="INFO">Typing text 'Rayan Mondol' into text field 'ID: reg_billing_first_name'.</msg>
+<status status="PASS" starttime="20221016 18:57:49.386" endtime="20221016 18:57:49.674"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:57:53.682" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:57:49.676" endtime="20221016 18:57:53.683"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${regemailmobile_ID}</arg>
+<arg>${email_mob}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221016 18:57:53.708" level="INFO">Typing text 'saha46@gmail.com' into text field 'ID: reg_email'.</msg>
+<status status="PASS" starttime="20221016 18:57:53.706" endtime="20221016 18:57:53.937"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:57:57.954" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:57:53.938" endtime="20221016 18:57:57.954"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${regmobile_ID}</arg>
+<arg>${mob_num}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221016 18:57:57.961" level="INFO">Typing text '01736457478' into text field 'ID: secondmailormobile'.</msg>
+<status status="PASS" starttime="20221016 18:57:57.959" endtime="20221016 18:57:58.207"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:58:02.216" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:57:58.209" endtime="20221016 18:58:02.217"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${regpassword_ID}</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221016 18:58:02.222" level="INFO">Typing text 'Tonoy@#123' into text field 'ID: reg_password'.</msg>
+<status status="PASS" starttime="20221016 18:58:02.220" endtime="20221016 18:58:02.417"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:58:06.433" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:58:02.419" endtime="20221016 18:58:06.433"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${reglogin_XPATH}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221016 18:58:06.440" level="INFO">Clicking element 'XPATH: //a[normalize-space()='Login']'.</msg>
+<status status="PASS" starttime="20221016 18:58:06.438" endtime="20221016 18:58:06.572"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:58:10.585" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:58:06.573" endtime="20221016 18:58:10.586"/>
+</kw>
+<kw name="teardown" library="BasePage">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20221016 18:58:10.595" endtime="20221016 18:58:13.143"/>
+</kw>
+<status status="PASS" starttime="20221016 18:58:10.591" endtime="20221016 18:58:13.144"/>
+</kw>
+<status status="PASS" starttime="20221016 18:57:27.304" endtime="20221016 18:58:13.146"/>
+</kw>
+<status status="PASS" starttime="20221016 18:57:27.303" endtime="20221016 18:58:13.149"/>
+</test>
+<status status="PASS" starttime="20221016 18:57:27.282" endtime="20221016 18:58:13.182"/>
+</suite>
+<suite id="s1-s10" name="test Search" source="C:\Users\USER\PycharmProjects\WebAutomation\TestCases\test_Search.robot">
+<test id="s1-s10-t1" name="Logintest" line="7">
+<kw name="TopbarSearch" library="TopBarPage">
+<kw name="setUp" library="BasePage">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221016 18:58:13.205" level="INFO">Opening browser 'Chrome' to base url 'https://bayna.store/my-account/'.</msg>
+<status status="PASS" starttime="20221016 18:58:13.204" endtime="20221016 18:58:17.557"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20221016 18:58:17.559" endtime="20221016 18:58:17.798"/>
+</kw>
+<status status="PASS" starttime="20221016 18:58:13.204" endtime="20221016 18:58:17.799"/>
+</kw>
+<kw name="scroll0" library="HomePage">
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<arg>XPATH : //a[normalize-space()='Facebook']</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" starttime="20221016 18:58:17.801" endtime="20221016 18:58:18.104"/>
+</kw>
+<status status="PASS" starttime="20221016 18:58:17.800" endtime="20221016 18:58:18.105"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:58:22.120" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:58:18.106" endtime="20221016 18:58:22.120"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${mobilenumber_textbox_XPATH}</arg>
+<arg>${mob_num}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221016 18:58:22.122" level="INFO">Typing text '01736457478' into text field 'XPATH: //input[@id='username']'.</msg>
+<status status="PASS" starttime="20221016 18:58:22.121" endtime="20221016 18:58:22.333"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:58:26.351" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:58:22.335" endtime="20221016 18:58:26.351"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${password_textbox_XPATH}</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221016 18:58:26.354" level="INFO">Typing text 'Tonoy@#123' into text field 'XPATH: //input[@id='password']'.</msg>
+<status status="PASS" starttime="20221016 18:58:26.353" endtime="20221016 18:58:26.501"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:58:30.518" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:58:26.502" endtime="20221016 18:58:30.518"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${login_button_XPATH}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221016 18:58:30.542" level="INFO">Clicking element 'XPATH: //button[normalize-space()='Log in']'.</msg>
+<status status="PASS" starttime="20221016 18:58:30.540" endtime="20221016 18:58:35.087"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:58:39.102" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:58:35.088" endtime="20221016 18:58:39.103"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${search_Xpath}</arg>
+<arg>${search}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221016 18:58:39.110" level="INFO">Typing text 'chicken' into text field 'XPATH: /html/body/div[1]/header/div/div[2]/div/div/div[2]/div[2]/form/input[1]'.</msg>
+<status status="PASS" starttime="20221016 18:58:39.107" endtime="20221016 18:58:39.345"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:58:43.359" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:58:39.347" endtime="20221016 18:58:43.359"/>
+</kw>
+<kw name="scroll8" library="HomePage">
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<arg>XPATH: //span[normalize-space()='View all results']</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" starttime="20221016 18:58:43.362" endtime="20221016 18:58:43.675"/>
+</kw>
+<status status="PASS" starttime="20221016 18:58:43.361" endtime="20221016 18:58:43.677"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${viewallresult_XPATH}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221016 18:58:43.682" level="INFO">Clicking element 'XPATH: //span[normalize-space()='View all results']'.</msg>
+<status status="PASS" starttime="20221016 18:58:43.678" endtime="20221016 18:58:52.827"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>10</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:59:02.830" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20221016 18:58:52.829" endtime="20221016 18:59:02.830"/>
+</kw>
+<kw name="scroll10" library="HomePage">
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<arg>window.scrollTo(0,450)</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<msg timestamp="20221016 18:59:02.836" level="INFO">Executing JavaScript:
+window.scrollTo(0,450)
+Without any arguments.</msg>
+<status status="PASS" starttime="20221016 18:59:02.835" endtime="20221016 18:59:02.848"/>
+</kw>
+<status status="PASS" starttime="20221016 18:59:02.833" endtime="20221016 18:59:02.850"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:59:06.859" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:59:02.851" endtime="20221016 18:59:06.860"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${clickgreen_XPATH}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221016 18:59:06.866" level="INFO">Clicking element 'XPATH: //div[contains(@class,'type-product post-14045 status-publish first instock product_cat-green-chicken product_cat-offers has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple')]//img[contains(@class,'attachment-woocommerce_thumbnail size-woocommerce_thumbnail')]'.</msg>
+<status status="PASS" starttime="20221016 18:59:06.864" endtime="20221016 18:59:09.159"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:59:13.174" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:59:09.161" endtime="20221016 18:59:13.175"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${add_XPATH}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221016 18:59:13.181" level="INFO">Clicking element 'XPATH: //div[@class='summary-inner']//button[@name='add-to-cart'][normalize-space()='Add to cart']'.</msg>
+<status status="PASS" starttime="20221016 18:59:13.179" endtime="20221016 18:59:13.324"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221016 18:59:17.333" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20221016 18:59:13.326" endtime="20221016 18:59:17.333"/>
+</kw>
+<kw name="teardown" library="BasePage">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20221016 18:59:17.339" endtime="20221016 18:59:19.733"/>
+</kw>
+<status status="PASS" starttime="20221016 18:59:17.337" endtime="20221016 18:59:19.734"/>
+</kw>
+<status status="PASS" starttime="20221016 18:58:13.203" endtime="20221016 18:59:19.735"/>
+</kw>
+<status status="PASS" starttime="20221016 18:58:13.202" endtime="20221016 18:59:19.739"/>
+</test>
+<status status="PASS" starttime="20221016 18:58:13.187" endtime="20221016 18:59:19.769"/>
+</suite>
+<status status="FAIL" starttime="20221016 18:49:21.923" endtime="20221016 18:59:19.776"/>
+</suite>
+<statistics>
+<total>
+<stat pass="9" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="9" fail="1" skip="0" id="s1" name="TestCases">TestCases</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="test Accountdetails">TestCases.test Accountdetails</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s2" name="test Addresses">TestCases.test Addresses</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s3" name="test Blog">TestCases.test Blog</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s4" name="test Download">TestCases.test Download</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s5" name="test Facebook">TestCases.test Facebook</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s6" name="test Login">TestCases.test Login</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s7" name="Test Lostpassword">TestCases.Test Lostpassword</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s8" name="test Order">TestCases.test Order</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s9" name="test Register">TestCases.test Register</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s10" name="test Search">TestCases.test Search</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
